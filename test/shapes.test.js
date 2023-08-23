@@ -21,7 +21,7 @@ describe("shapes", () => {
       );
     });
   });
-  describe("circle", () => {
+  describe("square", () => {
     it("should take recieve a color and output the shape svg", () => {
       const shape = new Square();
       shape.setColor("blue");
