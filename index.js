@@ -1,4 +1,5 @@
 const inquirer = require("inquirer");
+const fs = require('fs');
 
 const questions = [
   {
@@ -28,5 +29,5 @@ const questions = [
 ];
 
 inquirer.prompt(questions).then((response) => {
-
+    fs.writeFile('logo.svg', )
 })
