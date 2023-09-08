@@ -8,7 +8,7 @@ describe("shapes", () => {
       const shape = new Circle();
       shape.setColor("blue");
       expect(shape.render()).toEqual(
-        "<cirle cx='150' cy='100' r='90' fill='blue' />"
+        "<circle cx='150' cy='100' r='90' fill='blue' />"
       );
     });
   });
@@ -17,7 +17,7 @@ describe("shapes", () => {
       const shape = new Triangle();
       shape.setColor("blue");
       expect(shape.render()).toEqual(
-        "<polygon points='10,10 150,190 290,10' fill='blue' />"
+        "<polygon points='150,10 10,190 290, 190' fill='blue' />"
       );
     });
   });
@@ -26,7 +26,7 @@ describe("shapes", () => {
       const shape = new Square();
       shape.setColor("blue");
       expect(shape.render()).toEqual(
-        "<rect width='180' height='180' fill='blue' />"
+        "<rect width='180' height='180' x='60' y='10' fill='blue' />"
       );
     });
   });

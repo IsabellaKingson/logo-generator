@@ -6,7 +6,7 @@ describe("Text", () => {
     logo.setColor("blue");
     logo.setText("RGB");
     expect(logo.render()).toEqual(
-      "<text x='150' y='100' fill='blue'>RGB</text>"
+      "<text x='150' y='100' text-anchor='middle' dominant-baseline='middle' font-size='80px' fill='blue'>RGB</text>"
     );
   });
 });
